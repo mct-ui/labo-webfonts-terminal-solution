@@ -13,15 +13,16 @@ html {
     box-sizing: inherit;
 }
 
-body {    
+body {
+    margin: 0;
     min-height: 100vh;
-    padding: 1.5em;      
+    padding: 1.5em;
     font-family: 'Azeret', serif;
     font-variation-settings: 'wght' 400;
     font-feature-settings: 'ss02', 'ss03', 'ss04', 'ss05', 'ss07', 'ss08', 'ss10', 'ss11', 'ss14', 'ss15';
     line-height: 1.5;
     background-color: black;
-    color: #00ff00;    
+    color: #00ff00;
 }
 
 div {
@@ -29,6 +30,6 @@ div {
 }
 
 ::selection {
-  color: black;
-  background: #00ff00;
+    color: black;
+    background: #00ff00;
 }
